@@ -11,10 +11,11 @@
     <div class="nav-container">
         <div class="wrapper2">
             <nav>
+                <!-- Add logo here -->
                 <div class="logo">
-                    Logo
+                    
                 </div>
-
+            
                 <ul class="nav-items">
                     <li>
                         <a href="#">Create Campaign</a>
@@ -25,7 +26,7 @@
                     </li>
 
                     <li>
-                        <a href="#">Connect Wallet</a>
+                        <button class="connect-nav" href="#">Connect Wallet</button>
                     </li>
 
                     <li>
@@ -41,28 +42,36 @@
     </div>
 
     <div class="header-items">
-        <p class="return">Back to Requests</p>
+        <a class="return" href="">Back to Requests</a>
         <h1 class="title">Create a Withdrawl Request</h1>
     </div>
 
     <div class="wrapper">
         
         <div class="form-group">
-            <label for="desc">Request Description</label>
-            <input type="text" id="desc" >
+            <label for="desc" class="form-label">Request Description</label>
+            <textarea type="text" id="desc" class="form-input-a"></textarea>
         </div>
         <div class="form-group">
-            <label for="amount">Amount in Ether</label>
-            <input type="text" id="amount">
+            <label for="amount" class="form-label">Amount in Ether</label>
+            <input type="text" id="amount" class="form-input-b">
         </div>
         <div class="form-group">
-            <label for="address">Recipient Ethereum Wallet Address</label>
-            <input type="text" id="address">
+            <label for="address" class="form-label">Recipient Ethereum Wallet Address</label>
+            <input type="text" id="address" class="form-input-c"> 
         </div>
         <button class="btn-primary">Connect Wallet</button>
-        <div class="warning-msg">
-            <p>Please connect your wallet first to create campaign</p>
+        <div class="warning-container" >
+            <p class="warning">Please connect your wallet first to create campaign</p>
         </div>
     </div>
+
+    <footer>
+        <div class="foot-wrapper">
+            <div class="foot-container">
+
+            </div> 
+        </div>    
+    </footer>    
 </body>
 </html>
