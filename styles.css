@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins&display=swap");
+
+:root {
+    --clr-btn: #39B0AC;
+    --clr-warning: #FBEBCA;
+}
+
+
+
+ body{
+     font-family: 'Poppins',sans-serif;
+     background-color:rgb(198, 198, 198);
+ }
+
+.wrapper{
+    background-color: rgb(255, 255, 255);
+    width: 26rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    margin: 2rem auto;
+}
+
+.title{
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.return {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
