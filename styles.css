@@ -3,6 +3,8 @@
 :root {
     --clr-btn: #39B0AC;
     --clr-warning: #FBEBCA;
+    --clr-btn-sec: #19DA38;
+    --clr-btn-sec-b : #000000;
 }
 
 * {
@@ -163,6 +165,7 @@ nav ul {
     cursor: pointer;
     border-radius: 10px;
     padding: 0.8rem;
+    font-family: 'Poppins',sans-serif;
   
 }
 
@@ -172,4 +175,12 @@ nav ul {
     background-color:  #CBCBCB;
     margin-top: 4rem;
     
+}
+
+.table-container {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
 }
